@@ -8,9 +8,9 @@ from datetime import timedelta
 
 
 def menu():
-    print(f'\nPlease pick an option:\n'
+    return input(f'\nPlease pick an option:\n'
     f'1. Display Project Hours\n'
-    f'2. Add new Project\n'
+    f'2. Add New Project\n'
     f'3. Track Project Hours\n'
     f'4. Exit\n')
 
